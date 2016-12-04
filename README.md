@@ -1,9 +1,10 @@
 Google Finance Stock charts
 
 Uses:
-Rails 5 
+Rails 4.1.2
 ruby 2.3.1
 Rails-React gem
+
 
 
 

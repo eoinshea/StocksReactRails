@@ -1,4 +1,4 @@
 SampleReactRailsApp::Application.routes.draw do
-  resources :comments
+  resources :stocks
   root :to => redirect("/comments")
 end

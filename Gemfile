@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '~> 4.1.2'
 
 # Use postgres as the database for Active Record
 gem 'pg'
@@ -13,13 +13,19 @@ gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+#gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails'# '~> 2.3.0'
+gem 'jquery-ui-rails'
+
+#gem 'jquery-ui-rails'
+gem 'react-rails'#, '~> 1.0.0.pre', github: 'reactjs/react-rails'
+
+
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
@@ -45,8 +51,22 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Server-rendering isn't in 0.x, need to grab the 1.x prerelease
-gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
+#gem 'react-rails', github: 'reactjs/react-rails', branch: 'master'
 
 gem 'rails_12factor', group: :production
 
 gem 'sqlite3'
+
+gem 'devise'
+
+gem 'capybara'
+
+gem 'selenium'
+
+gem 'rspec-rails'
+
+gem 'bootstrap-sass'
+
+#gem 'jasmine-react-rails'
+
+gem 'chart-js-rails'
