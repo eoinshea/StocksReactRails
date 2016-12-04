@@ -1,14 +1,10 @@
-# Sample Rails app with isomorphic React components
+Google Finance Stock charts
 
-This is a simple proof-of-concept Rails app that uses the 1.x prerelease version of the [react-rails gem](https://github.com/reactjs/react-rails/pull/24), which lets us:
+Uses:
+Rails 5 
+ruby 2.3.1
+Rails-React gem
 
-- render [React](http://facebook.github.io/react/index.html) components server side
-- mount the same React component on top of the server-rendered DOM client side (via an unobtrusive JS adapter)
 
-The app displays a photo with simple list of comments and a form for adding new comments. New comments are added via Ajax, but if JS fails to load (which you can test with `?js=broken`), the form submits via a full page refresh.
 
-To get the app running:
-
-- `bundle install`
-- `rake db:migrate`
-- `rails server`
+rake db:drop && rake db:create  && rake db:migrate  && rake db:seed# StocksReactRails
