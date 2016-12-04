@@ -72,3 +72,10 @@ gem 'bootstrap-sass'
 gem 'chart-js-rails'
 
 gem 'annotate'
+
+
+gem 'react-bootstrap-rails'
+
+gem 'd3-rails'
+gem 'c3-rails'
+
