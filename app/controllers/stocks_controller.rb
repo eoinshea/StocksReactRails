@@ -5,7 +5,8 @@ class StocksController < ApplicationController
 
   def index
     @stocks = Stock.all
-    respond_with(@stocks)
+    #respond_with(@stocks)
+    render component: 'Stocks', props: { stocks: @stocks }
   end
 
   def show
