@@ -70,3 +70,5 @@ gem 'bootstrap-sass'
 #gem 'jasmine-react-rails'
 
 gem 'chart-js-rails'
+
+gem 'annotate'
